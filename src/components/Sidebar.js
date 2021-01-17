@@ -10,9 +10,9 @@ import SidebarChat from "./SidebarChat";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div class="sidebar__header">
+      <div className="sidebar__header">
           <Avatar src=""/>
-        <div class="sidebar__headerRight">
+        <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />
           </IconButton>
@@ -25,14 +25,14 @@ function Sidebar() {
         </div>
       </div>
 
-      <div class="sidebar__search">
-          <div class="sidebar__searchContainer">
+      <div className="sidebar__search">
+          <div className="sidebar__searchContainer">
           <SearchOutlinedIcon />
           <input placeholder="Search or start new chat" type="text" />
           </div>
       </div>
 
-      <div class="sidebar__chats">
+      <div className="sidebar__chats">
           <SidebarChat />
           <SidebarChat />
           <SidebarChat />
